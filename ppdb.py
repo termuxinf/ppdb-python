@@ -27,6 +27,7 @@ print("4. Cari Siswa        ")
 print("5. Edit Nama Siswa   ")
 print("6. Edit Nomor Siswa  ")
 print("7. Jumlah Total Siswa yang Sudah Mendaftar")
+print("8. Author")
 print("0. Keluar            ")
 print("======================================================================")
  
@@ -72,6 +73,9 @@ while loop:
             print("Data Tidak Ditemukan")
     elif menu == "7":
         print("Jumlah Total Siswa: ", len(Daftar_Siswa))
+    elif menu == "8" :
+        print("R. Rifai Arsa")
+        print("https://github.com/lazyfay")
     elif menu == "0":
         loop = False
     else:
